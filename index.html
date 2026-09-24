@@ -7,8 +7,9 @@
 <meta name="description" content="Press kit for Thrion Tactics, a turn-based tactical dungeon arena where the clock only runs while you move.">
 <meta property="og:title" content="Thrion Tactics - Press Kit">
 <meta property="og:description" content="A turn-based tactical dungeon arena where time only moves when you do.">
-<meta property="og:image" content="images/logo-1200.png">
+<meta property="og:image" content="https://pyles-studio.github.io/thrion-tactics/images/screenshot-01.jpg">
 <meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
 <style>
   :root{
     --bg:#100e0c; --panel:#1a1612; --line:#3a2f20;
@@ -82,6 +83,11 @@
   .shots figure{margin:0}
   .shots img{width:100%; height:auto; display:block; border:1px solid var(--line); border-radius:3px}
   .shots figcaption{color:var(--muted); font-size:.82rem; padding:7px 2px 0}
+  .shots a{border:0; display:block}
+
+  .video{position:relative; padding-bottom:56.25%; height:0; margin:0 0 16px;
+    border:1px solid var(--line); border-radius:3px; overflow:hidden; background:#000}
+  .video iframe{position:absolute; top:0; left:0; width:100%; height:100%; border:0}
 
   .logos{display:flex; flex-wrap:wrap; gap:26px; align-items:center}
   .logos .box{background:#090807; border:1px solid var(--line); border-radius:3px; padding:26px 30px}
@@ -196,19 +202,23 @@
 
 <section id="video">
   <h2>Video</h2>
-  <p>Gameplay video coming shortly.</p>
+  <div class="video">
+    <iframe src="https://www.youtube-nocookie.com/embed/5jNCCWCWdOY"
+      title="Thrion Tactics gameplay" loading="lazy" allowfullscreen></iframe>
+  </div>
+  <p><a href="https://youtu.be/5jNCCWCWdOY">Watch on YouTube</a></p>
 </section>
 
 <section id="images">
   <h2>Images</h2>
   <p class="note">All images may be reproduced freely in articles, videos and event material covering Thrion Tactics. Credit is appreciated but not required.</p>
   <div class="shots">
-    <figure><img src="images/screenshot-01.png" alt="Main menu"><figcaption>Main menu</figcaption></figure>
-    <figure><img src="images/screenshot-02.png" alt="Champion select"><figcaption>Champion select</figcaption></figure>
-    <figure><img src="images/screenshot-03.png" alt="Champion and stats"><figcaption>Champion and base stats</figcaption></figure>
-    <figure><img src="images/screenshot-04.png" alt="Dungeon exploration"><figcaption>Exploring a tier</figcaption></figure>
-    <figure><img src="images/screenshot-05.png" alt="Combat"><figcaption>Combat and abilities</figcaption></figure>
-    <figure><img src="images/screenshot-06.png" alt="Cyclops boss"><figcaption>The Cyclops boss</figcaption></figure>
+    <figure><a href="images/screenshot-01.jpg"><img src="images/screenshot-01.jpg" alt="The throne hall main menu"></a><figcaption>The Soulmancer's hall, where every run begins</figcaption></figure>
+    <figure><a href="images/screenshot-02.jpg"><img src="images/screenshot-02.jpg" alt="Champion select"></a><figcaption>Picking champions and turn length before a Trial</figcaption></figure>
+    <figure><a href="images/screenshot-03.jpg"><img src="images/screenshot-03.jpg" alt="Umbra Cale in combat"></a><figcaption>Umbra Cale mid-fight, the Soulcore pool tracked top left</figcaption></figure>
+    <figure><a href="images/screenshot-04.jpg"><img src="images/screenshot-04.jpg" alt="A spiked gate in the dungeon"></a><figcaption>A spiked gate between rooms</figcaption></figure>
+    <figure><a href="images/screenshot-05.jpg"><img src="images/screenshot-05.jpg" alt="The altar chamber"></a><figcaption>The altar chamber</figcaption></figure>
+    <figure><a href="images/screenshot-06.jpg"><img src="images/screenshot-06.jpg" alt="Trial complete summary"></a><figcaption>Run summary: time, souls and Soulcore progress</figcaption></figure>
   </div>
 </section>
 
